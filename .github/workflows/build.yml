@@ -15,3 +15,4 @@ jobs:
           repository: truemark/k8s-deployments
           ref: main
           path: k8s-deployments
+          token: ${{ secrets.GITHUB_TOKEN }}
